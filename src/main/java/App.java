@@ -26,6 +26,8 @@ public class App
             System.out.println("You are underweight. You should see your doctor.");
         } else if (BMI > 25) {
             System.out.println("You are overweight. You should see your doctor.");
+        } else {
+            System.out.println("You are within the ideal weight range.");
         }
     }
 }
